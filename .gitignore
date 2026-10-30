@@ -1,0 +1,21 @@
+# 敏感配置 —— 绝不要提交
+config.py
+*.env
+.env
+*.key
+*.pem
+secrets*.json
+
+# 运行产物
+reports/status/dashboard.md
+reports/status/automation_status.json
+_reports/
+*.log
+__pycache__/
+*.pyc
+
+# 私有内容
+周报/
+outputs/
+archive/
+_历史版本/
